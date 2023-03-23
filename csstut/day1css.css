@@ -1,0 +1,69 @@
+/*
+
+there are three types of doing styling 
+    1.using style tag in html file only 
+    2.using link 
+    3.doing styling inside the html tags 
+
+******************
+
+*{
+    margin-top: 20px;
+    this will apply to whole body 
+}
+.a{
+this will apply to the tag of that class
+a element can have more than onw class 
+}
+#b{
+this will apply to only onw element 
+we have to create the different id for diffenet elements 
+}
+
+id>class >element >* inherentence order
+
+
+
+
+**************************
+combinators
+
+
+
+*************
+PSEUDO CLASS
+
+.class_name :hover{
+}
+active 
+focus 
+focus_within
+********************************
+font-size 1vh=1/100of window size
+font family 
+font style 
+font weight 
+word spacing 
+letter spacing 
+
+
+
+*/
+
+.a{
+   
+
+    padding: 20px;
+    margin: 20px;
+    border: solid black 2   0px;
+}
+#b{
+   background-color: brown;
+}
+#c{
+    background-color:darkgray ;
+ }
+ #d{
+    background-color: antiquewhite;
+    line-height: 5px;
+ }

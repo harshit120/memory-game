@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="text-center">
+      <div class="flex justify-center space-x-2">
+        <img src="spotify.jpg" class="w-6" alt="spotify" /> <span>spotify</span>
+      </div>
+
+      <div>
+        <p>Sign up for free to start listening</p>
+      </div>
+
+      <div>
+        <button
+          class="border-2 rounded-3xl bg-blue-800 text-white w-72 py-2 mb-4"
+        >
+          sign up with facebook</button
+        ><br />
+        <button class="border-2 rounded-3xl w-72 py-2">
+          sign up with google
+        </button>
+      </div>
+      <div class="flex justify-center mt-4">
+        <hr class="w-32 h-3 mt-3" />
+        <p class="mx-2">or</p>
+        <hr class="w-32 mt-3" />
+      </div>
+
+      <form action="">
+        <div class="emails">
+          <label for="email" class="-ml-40 text-sm">What's your Email</label>
+          <br />
+          <input
+            type="email"
+            name="email"
+            class="email border-2 rounded-md px-2 py-1 w-72 mb-2"
+            placeholder="enter your mail"
+            required
+          />
+          <br />
+          <span class="showerror1 -ml-20 bg-red-900 rounded-lg hidden"
+            >You need to enter your email.</span
+          >
+        </div>
+        <div class="confirmmail mt-4">
+          <label for="email" class="-ml-40 text-sm">Confirm your Email</label>
+          <br />
+          <input
+            type="email"
+            name="confirmemail"
+            class="confirmemail border-2 rounded-md px-2 py-1 w-72"
+            placeholder="Enter your email again"
+            required
+          />
+          <br />
+          <span class="showerror2 -ml-20">You need to enter your email.</span>
+        </div>
+
+        <div class="password mt-4">
+          <label for="email" class="-ml-40 text-sm">create a password</label>
+          <br />
+          <input
+            type="password"
+            name="password"
+            class="password border-2 rounded-md px-2 py-1 w-72"
+            placeholder="create a password"
+            required
+          />
+          <br />
+          <span class="showerror1 -ml-20 hidden"
+            >You need to enter your email.</span
+          >
+        </div>
+
+        <div class="profile mt-4">
+          <label for="email" class="-ml-32 text-sm"
+            >what should we call you?</label
+          >
+          <br />
+          <input
+            type="text"
+            name="password"
+            class="password border-2 rounded-md px-2 py-1 w-72"
+            placeholder="Enter a profile name."
+            required
+          />
+          <br />
+          <p class="-ml-20">This appearrs on your profile</p>
+          <span class="showerror1 -ml-20 hidden"
+            >You need to enter your email.</span
+          >
+        </div>
+
+        <div class="date mt-4">
+          <label for="email" class="-ml-32 text-sm"
+            >what should we call you?</label
+          >
+          <br />
+          <input
+            type="text"
+            name="year"
+            class="password border-2 rounded-md px-2 py-1 w-20"
+            placeholder="year"
+            required
+          />
+          <select name="month" class="border-2 rounded-md px-2 py-1 w-32">
+            <option value="" selected disabled>month</option>
+            <option value="01">jan</option>
+            <option value="02">fab</option>
+            <option value="03">march</option>
+            <option value="04">april</option>
+          </select>
+
+          <input
+            type="text"
+            name="date"
+            class="password border-2 rounded-md px-2 py-1 w-20"
+            placeholder="date"
+            required
+          />
+          <br />
+          <span class="showerror1 -ml-20 hidden"
+            >You need to enter your email.</span
+          >
+        </div>
+
+        <div class="genders">
+          <label for="" class="-ml-40 text-sm">What's your Email</label>
+          <br />
+
+          <input
+            type="radio"
+            name="gender"
+            value="male"
+            class="email border-2 rounded-md px-2 py-1"
+            placeholder="male"
+            class="genderr"
+            required
+          />
+          <label for="">male</label>
+          <input
+            type="radio"
+            name="gender"
+            value="emale"
+            class="email border-2 rounded-md px-2 ml-8 py-1"
+            placeholder="female"
+            class="genderr"
+            required
+          />
+          <label for="" class="">female</label>
+
+          <input
+            type="radio"
+            name="gender"
+            class="genderr"
+            value="Non-binary"
+            class="email border-2 rounded-md ml-8 px-2 py-1"
+            placeholder="Non-binary"
+            required
+          />
+          <label for=""> Non-binary</label>
+
+          <br />
+          <input
+            type="radio"
+            name="gender"
+            value="other"
+            class="email border-2 rounded-md -ml-20 mt-4 px-2 py-1"
+            placeholder="other"
+            class="genderr"
+            required
+          />
+          <label for="">other</label>
+
+          <input
+            type="radio"
+            name="gender"
+            value="Perfer not to say"
+            class="email border-2 rounded-md mt-2 ml-8 px-2 py-1"
+            placeholder="Perfer not to say"
+            class="genderr"
+            required
+          />
+          <label for="">Pefer not to say</label>
+          <br />
+          <span class="showerror2 -ml-20 hidden">please select you gender</span>
+        </div>
+
+        <div class="mt-4">
+          <input type="checkbox" class="ml-40" name="" />
+          <label for=""
+            >i would prefer not to receive marketing messages from Spotify
+          </label>
+          <br />
+          <input type="checkbox" class="ml-40 mt-4" name="" />
+          <label for="" class="mt-4"
+            >share my registration data with Spotify's content providers for
+            <p class="-ml-32">marketing purposes</p>
+          </label>
+        </div>
+
+        <button class="mt-8 bg-green-600 text-black py-4 px-8 rounded-full">
+          Sign up
+        </button>
+      </form>
+    </div>
+
+    <script>
+      //
+      let email = document.querySelector(".email");
+      let showerror1 = document.querySelector(".showerror1");
+      let eshowerror2 = document.querySelector(".showerror2");
+      let mail_name;
+      email.addEventListener("input", function (e) {
+        let regEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/g;
+
+        if (!email.value.match(regEmail)) {
+          showerror1.style.display = "inline";
+        } else {
+          mail_name = email.value;
+          showerror1.style.display = "none";
+        }
+      });
+
+      let confirmemail = document.querySelector(".confirmemail");
+      confirmemail.addEventListener("input", function (e) {
+        if (mail_name !== confirmemail.value) {
+          showerror2.style.display = "inline";
+        } else {
+          showerror2.style.display = "none";
+        }
+      });
+     
+      
+      
+   
+     
+    </script>
+  </body>
+</html>
+
+<!-- let text = "helloworld@gmail.com"; // let position =
+text.endsWith("@gmail.com"); // console.log(position); // let name =
+document.querySelector(".name"); // console.log("hello"); // console.log(name);
+// name.addEventListener("input", function (e) { // let ero =
+document.querySelector(".showerror"); // if (name.value.length < 5) { //
+ero.innerHTML = "helllo"; // } else { // ero.innerHTML = ""; // } // }); -->

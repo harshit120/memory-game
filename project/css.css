@@ -1,0 +1,16 @@
+body{
+   min-height: 400vh;
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 1rem;
+   border-left: 1px solid #333;
+border-right: 1px  solid #333;
+}
+
+
+td ,th{
+    border: #333 1px solid ;
+   margin:  auto; 
+   text-align: center;
+
+}

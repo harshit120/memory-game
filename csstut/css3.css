@@ -1,0 +1,13 @@
+.co{
+    background-color: darkolivegreen;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap:wrap
+     ;
+}
+.item{
+    background-color: antiquewhite;
+    height: 100px;
+    width: 100px;
+}

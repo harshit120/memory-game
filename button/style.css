@@ -1,0 +1,22 @@
+div{
+    background-color: lightslategrey;
+    color: azure;
+    font-size: 30px;
+    width: 90px;
+    margin: 50px;
+    padding :40px;
+    padding-right: 10px;
+    box-shadow: cadetblue 10px 10px 10px;
+    border-radius: 15px;
+transition: 1s;
+}
+div#div1:hover{
+    transform: translate(-20px,-20px);
+  
+}
+
+div#div1:active{
+    background-color: black;
+transform: translate(10px,10px);
+    transition: 5s;
+}

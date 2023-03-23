@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+    box-sizing: border-box;
+    text-align: center;
+   
+}
+
+
+body{
+    
+   
+}
+h2{
+     padding: 1rem;
+    
+    margin: 0px;
+    background-color: yellow;
+   
+    border-radius: 2rem 2rem 0 0;
+}
+
+nav{
+
+    border: 2px solid black ;
+    max-width: 600px;
+    margin: 0 auto 1rem;
+    border-radius: 2rem;
+    font-size: 3rem;
+    line-height: 7rem;
+}
+li{
+   display: block;
+    border-top: 2px solid black;
+  
+}
+ li a{
+    display: block;
+}
+li  :visited{
+background-color: aquamarine;
+}
+a:hover,
+li  :hover{
+    display: block;
+    color: black;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+li :focus{
+   
+  
+    background-color: blue;
+   
+}
+

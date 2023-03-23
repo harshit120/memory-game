@@ -1,0 +1,25 @@
+.container{
+
+display: grid;
+/* this will help to give childern a specific length of 200px each */
+
+grid-gap: 20px;
+grid-template-columns: repeat(2,2fr);
+grid-auto-rows: 100px;
+
+
+}
+.a{
+    background-color: aquamarine;
+   border : 2px solid blueviolet;
+   border-radius: 5px;
+
+
+ 
+}
+
+.b{
+    background-color:brown ;
+   border : 2px solid blueviolet;
+   border-radius: 5px;
+}

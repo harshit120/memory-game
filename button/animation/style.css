@@ -1,0 +1,31 @@
+.container{
+    background-color: bisque;
+    width: 400px;
+    height: 400px;
+}
+.a{
+    background-color: cadetblue;
+    width: 80px;
+    height: 80px;
+    border:  solid black 1px;
+float: right;
+display: inline-block;
+    
+animation: bounce  2s; 
+animation-iteration-count: infinite;
+animation-timing-function: ease-in;
+}
+
+@keyframes bounce  {
+    
+    0%{
+
+    }
+    50%{
+transform: translateY(400px);
+    }
+    100%{
+        background-color: black;
+    }
+    
+}

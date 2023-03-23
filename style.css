@@ -1,0 +1,54 @@
+/*
+*{
+    margin-top: 20px;
+    this will apply to whole body 
+}
+.a{
+this will apply to the tag of that class
+a element can have more than onw class 
+}
+#b{
+this will apply to only onw element 
+we have to create the different id for diffenet elements 
+}
+
+id>class >element >* inherentence order
+
+
+
+
+font-size :it will change the size of font 
+font-family :it willchange the family of the font 
+font-style : it will change the look of the font like "itallic ,bold "etc;
+word-spacing : it will give the space betwee the words 
+letter-spacing :it will give the space betweee letter
+font-weight :it will give the weight to the letter "like bolder ,lighter";
+
+
+
+
+
+transform scale :it will increae or decease the size and it can also efffect the other elements in the web page 
+transform skew :
+transform rotate ;
+transform translate :in translate it will move according to axis we will givve
+
+
+
+#sudo selector example :[div:hover{}],div:active{}
+
+*/
+.c{
+    margin: 10px;
+    padding: 10px;
+    border:solid black 3px;
+}
+#div1{
+    background-color: aqua;
+}
+#div2{
+    background-color: lawngreen;
+}
+#div3{
+    background-color: lightcoral;
+}

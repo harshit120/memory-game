@@ -1,0 +1,116 @@
+/*
+*****************
+trransform 
+syntax be like =transform:skew(degree);
+skew
+
+rotate:
+rotateX 
+
+scale 
+/////////the difference between the changing the height width and scale is that changing the height and width will not affect anythinf the page 
+whereas in scale it can affect the outer change as well as the innerr change of the content
+
+
+translate   
+if we want to move something
+
+
+*******************************************************
+button
+*/
+div.btn{
+    background-color: antiquewhite;
+    width: 50px;
+   margin: 200px;
+    padding: 50px;
+    transition: 1s;
+ border-radius: 10 px;
+
+    box-shadow:  brown 10px 10px 10px;
+
+}
+div.btn:hover{
+    transform: translate(-10px,-10px);
+    box-shadow: 20px,20px;
+}
+div.btn:active{
+    transform: translate(5px,5px);
+    box-shadow: 5px 5px;
+}
+
+
+/* when we are make the div inside div and suppose you make the 5 div inside in div and you make the inside 
+div as inline block element then their is a gap between them present 
+we can remove tha t gap by the help of text-font or flex
+*/
+/*
+watch video 0 time 56min*/  
+div.container{
+   margin : 100px;
+    height: 500px;
+    width: 500px;
+background-color: black;
+}
+div.a{
+    height: 50px;
+    width: 50px;
+    margin :20px;
+    background-color: blanchedalmond;
+    display: inline-block;
+    animation: bounce  2s ;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+@keyframes bounce  {
+    0%{
+
+    }
+    
+    50%{
+        transform: translateY(300px);
+    }
+
+    
+}
+div.game{
+    background-color: cadetblue;
+    width: 400px;
+    height: 400px;
+    margin: 100px;
+}
+div.box{
+    display: inline-block;
+  
+    width: 50px;
+    height: 50px;
+    background-color: crimson;
+}
+div.player{
+    transform: translateY(200px);
+    margin-top: 80px;/*when change in margin in the palyer we also get the change in the aniimation of the enemy ????*/
+animation: move 4s infinite;
+animation-play-state: paused;
+}
+@keyframes move {
+    50%{
+        transform: translatey(200px) translateX(400px);
+    
+    }
+    
+}
+div.enemy{
+    margin-left: 40px;
+    animation: bounce 2s infinite;
+}
+@keyframes bounce {
+    50%{
+        transform: translateY(400px);
+    }
+}
+div.one{
+    animation-duration: 3s;
+}
+.game:active.palyer{
+    animation-play-state: running;
+}
